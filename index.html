@@ -3,138 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mock Shop - Home</title>
+    <title>Nishil Trivedi Portfolio</title>
     <link rel="stylesheet" href="static/css/styles.css">
-    <style>
-        #trending {
-            overflow: hidden;
-            position: relative;
-            height: 250px; /* Adjust based on your design */
-        }
-        .product-grid {
-            display: flex;
-            transition: transform 0.5s ease;
-            position: absolute;
-            will-change: transform;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Mock Shop</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="intro">
+            <h1>Nishil Trivedi</h1>
+            <p>Full-Stack Developer | Proficient in HTML, CSS, JavaScript, and Python</p>
+        </div>
     </header>
-    
+
     <main>
-        <section id="intro">
-            <h2>Welcome to Mock Shop!</h2>
-            <p>Your one-stop shop for amazing products at unbeatable prices!</p>
-        </section>
-        
-        <section id="trending">
-            <h2>Trending Products</h2>
-            <div class="product-grid" id="product-container">
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 1">
-                    </div>
-                    <h3>Trending Item 1</h3>
-                    <span class="price">$10.00</span>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Creating structured, semantic, and responsive web pages.</p>
                 </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 2">
-                    </div>
-                    <h3>Trending Item 2</h3>
-                    <span class="price">$15.00</span>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Crafting beautiful, modern, and responsive layouts.</p>
                 </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 3">
-                    </div>
-                    <h3>Trending Item 3</h3>
-                    <span class="price">$20.00</span>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Building dynamic and interactive web applications.</p>
                 </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 4">
-                    </div>
-                    <h3>Trending Item 4</h3>
-                    <span class="price">$25.00</span>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 5">
-                    </div>
-                    <h3>Trending Item 5</h3>
-                    <span class="price">$30.00</span>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 6">
-                    </div>
-                    <h3>Trending Item 6</h3>
-                    <span class="price">$35.00</span>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 7">
-                    </div>
-                    <h3>Trending Item 7</h3>
-                    <span class="price">$40.00</span>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 8">
-                    </div>
-                    <h3>Trending Item 8</h3>
-                    <span class="price">$45.00</span>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 9">
-                    </div>
-                    <h3>Trending Item 9</h3>
-                    <span class="price">$50.00</span>
-                </div>
-                <div class="product-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/200" alt="Trending Item 10">
-                    </div>
-                    <h3>Trending Item 10</h3>
-                    <span class="price">$55.00</span>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Developing backend systems, APIs, and automation scripts.</p>
                 </div>
             </div>
         </section>
 
-        <section id="sales">
-            <h2>Current Sales</h2>
-            <p>Don't miss our amazing sales on selected items!</p>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <div class="project">
+                    <h3><a href="https://shop-website-example-1.vercel.app/" target="_blank">Shop Website Example 1</a></h3>
+                    <p>A fully functional e-commerce website showcasing various products.</p>
+                </div>
+                <div class="project">
+                    <h3><a href="https://example-business-website.vercel.app/index.html" target="_blank">Example Business Website</a></h3>
+                    <p>A professional business website with a modern design.</p>
+                </div>
+                <div class="project">
+                    <h3>Interactive Web App</h3>
+                    <p>A JavaScript-powered web app with dynamic features.</p>
+                </div>
+                <div class="project">
+                    <h3>Full-Stack Web Application</h3>
+                    <p>A full-stack project built with Flask and a SQL database.</p>
+                </div>
+                <div class="project">
+                    <h3>Responsive Portfolio Website</h3>
+                    <p>A showcase of my skills using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to collaborate or discuss a project, feel free to reach out!</p>
+            <p>Email: <a href="mailto:nishilatrivedi@gmail.com">nishilatrivedi@gmail.com</a></p>
         </section>
     </main>
-    
+
     <footer>
-        <p>© 2024 Mock Shop. All rights reserved.</p>
+        <p>&copy; 2024 Nishil Trivedi | Built with HTML, CSS, JavaScript, and Python</p>
     </footer>
 
     <script src="static/js/script.js"></script>
-    <script>
-        const productContainer = document.getElementById('product-container');
-        let scrollIndex = 0;
-
-        function scrollProducts() {
-            const productWidth = productContainer.children[0].offsetWidth; // Get the width of a single product
-            scrollIndex = (scrollIndex + 1) % productContainer.children.length; // Update scroll index
-            productContainer.style.transform = `translateX(-${scrollIndex * productWidth}px)`; // Scroll to the next product
-        }
-
-        setInterval(scrollProducts, 3000); // Change products every 3 seconds
-    </script>
 </body>
 </html>
