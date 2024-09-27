@@ -1,14 +1,9 @@
-// Smooth scrolling for navigation links
-document.querySelectorAll('nav a').forEach(anchor => {
+// Optional: Add smooth scroll behavior for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1);
-        const targetSection = document.getElementById(targetId);
-        window.scrollTo({
-            top: targetSection.offsetTop,
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
     });
 });
-
-console.log("Nishil Trivedi's portfolio loaded successfully!");
