@@ -137,6 +137,11 @@ header .intro {
     border-radius: 10px;
 }
 
+.parallax-content h2 {
+    color: white; /* Change text color to white */
+}
+
+
 /* Footer Styles */
 footer {
     background-color: #2c3e50;
